@@ -23,7 +23,7 @@ export default memo(function Tax() {
 
   const search = () => {
     axios.get(`/api/getPaynum?from=${startYearRef.current.value}&to=${endYearRef.current.value}&state=${statesRef.current.value}`).then((res) => {
-      if (res.data.num || res.data.num == 0) {
+      if (res.data.num|| res.data.num==0) {
         setPayment(res.data.num)
       }
     })
