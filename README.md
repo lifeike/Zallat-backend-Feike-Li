@@ -19,4 +19,4 @@
 
 ## Screenshot
 
-![demo](./public/react.png)
+![](./public/react.png)
