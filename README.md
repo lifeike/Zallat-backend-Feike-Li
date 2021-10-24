@@ -2,7 +2,7 @@
 
 ## How to run
 
-1. cd Zalla-backend-Feike-Li
+1. git clone && cd Zalla-backend-Feike-Li
 2. npm install && npm start
 3. react hooks + mongodb atlas + node express
 
