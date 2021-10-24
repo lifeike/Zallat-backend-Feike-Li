@@ -22,7 +22,7 @@ export default memo(function EmissionOfState() {
 
   const search = () => {
     axios.get(`/api/getseriesByState?year=${yearRef.current.value}&state=${statesRef.current.value}`).then((res) => {
-      if (res.data.num) {
+      if (res.data.num || res.data.num == 0) {
         setEmission(res.data.num)
       }
     })
